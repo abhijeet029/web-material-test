@@ -1,0 +1,20 @@
+/* Container */
+.explore-menu-list-item {
+  overflow: hidden;
+  border-radius: 10px; /* optional */
+  cursor: pointer;
+}
+
+/* Image inside the menu item */
+.explore-menu-list-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+/* Hover effect */
+.explore-menu-list-item:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.05);
+}
